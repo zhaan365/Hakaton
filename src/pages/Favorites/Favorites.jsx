@@ -36,9 +36,9 @@ const Favorites = () => {
                         </p>
                     </div>
                     <div className="favorites__btn">
-                        <button className="hitSale__title favorites__title">
-                            Избранные товары :
-                        </button>
+                        {/*<button className="hitSale__title favorites__title">*/}
+                        {/*    Избранные товары :*/}
+                        {/*</button>*/}
                     </div>
                     <div className="hitSale__row">
                         {
@@ -64,7 +64,7 @@ const Favorites = () => {
         );
     } else {
         return <div className="favorites">
-            <button className="favorites__subtitle">Список избранных пуст !</button>
+            <button className="favorites__subtitle">Все заметки пусты !</button>
         </div>
     }
 

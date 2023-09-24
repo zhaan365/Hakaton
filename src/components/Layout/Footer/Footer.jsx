@@ -24,32 +24,32 @@ const Footer = () => {
                             <div className="footer__card-row">
                                 <Link to={'*'} className="footer__card-text">О нас</Link>
                                 <Link to={'*'} className="footer__card-text">Блог</Link>
-                                <Link to={'*'} className="footer__card-text">Покупки</Link>
+                                <Link to={'*'} className="footer__card-text">Новости</Link>
                                 <Link to={'*'} className="footer__card-text">Контакты</Link>
                             </div>
                         </div>
                         <div className="footer__card">
                             <h2 className="footer__card-title">
-                                Бренды:
+                                Новости:
                             </h2>
                             <div className="footer__card-line"></div>
                             <div className="footer__card-row">
-                                <Link to={'*'} className="footer__card-text">Xiaomi</Link>
-                                <Link to={'*'} className="footer__card-text">Samsung</Link>
-                                <Link to={'*'} className="footer__card-text">Apple</Link>
-                                <Link to={'*'} className="footer__card-text">Nokia</Link>
+                                <Link to={'*'} className="footer__card-text">О нас</Link>
+                                <Link to={'*'} className="footer__card-text">Блог</Link>
+                                <Link to={'*'} className="footer__card-text">Новости</Link>
+                                <Link to={'*'} className="footer__card-text">Контакты</Link>
                             </div>
                         </div>
                         <div className="footer__card">
                             <h2 className="footer__card-title">
-                                Бренды:
+                                Выборы:
                             </h2>
                             <div className="footer__card-line"></div>
                             <div className="footer__card-row">
-                                <Link to={'*'} className="footer__card-text">Xiaomi</Link>
-                                <Link to={'*'} className="footer__card-text">Samsung</Link>
-                                <Link to={'*'} className="footer__card-text">Apple</Link>
-                                <Link to={'*'} className="footer__card-text">Nokia</Link>
+                                <Link to={'*'} className="footer__card-text">О нас</Link>
+                                <Link to={'*'} className="footer__card-text">Блог</Link>
+                                <Link to={'*'} className="footer__card-text">Новости</Link>
+                                <Link to={'*'} className="footer__card-text">Контакты</Link>
                             </div>
                         </div>
                         <div className="footer__card">
@@ -58,18 +58,15 @@ const Footer = () => {
                             </h2>
                             <div className="footer__card-line"></div>
                             <div className="footer__card-row">
-                                <Link to={'*'} className="footer__card-text">Войти</Link>
-                                <Link to={'*'} className="footer__card-text">Выйти</Link>
-                                <Link to={'*'} className="footer__card-text">Кабинет</Link>
-                                <Link to={'*'} className="footer__card-text">Почта</Link>
+                                <Link to={'*'} className="footer__card-text">О нас</Link>
+                                <Link to={'*'} className="footer__card-text">Блог</Link>
+                                <Link to={'*'} className="footer__card-text">Новости</Link>
+                                <Link to={'*'} className="footer__card-text">Контакты</Link>
                             </div>
                         </div>
                         <div className="footer__icons">
                             <div className="footer__icons-title">
-                            <span>
-                                <AiOutlineApple size={50} className="footer__icons-img"/>
-                            </span>
-                                <span>E</span>lda<span>R</span>io
+                                <span>S</span>ave <span>T</span>he <span>C</span>ity
                             </div>
                             <div className="footer__icons-icons">
                                 <Link to={'https://www.instagram.com/'} className="footer__icons-link"><img className="footer__icons-icon" src={i} alt=""/></Link>

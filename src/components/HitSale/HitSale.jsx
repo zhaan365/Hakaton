@@ -1,7 +1,6 @@
 import React, {useContext, useEffect, Fragment} from 'react';
-import Card from "../Card/Card";
 import {CustomContext} from "../../config/context/context";
-import CardSkeleton from "../CardSkeleton/CardSkeleton";
+import Card from "../Card/Card";
 
 
 
@@ -20,13 +19,11 @@ const HitSale = () => {
             <div className="container">
                 <div className="hitSale__box">
                     <h2 className="hitSale__title">
-                        Новое поступление
+                        Критерии...
                     </h2>
                 </div>
                 <div className="hitSale__row">
                     {
-                        isLoading ? <CardSkeleton cards={12}/>
-                            :
                         hitSale.map((item) => (
                             <Fragment key={item.id}>
                                 <Card item={item}/>

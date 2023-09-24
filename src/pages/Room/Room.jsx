@@ -42,7 +42,6 @@ const Room = () => {
                         </div>
 
                         <div className="room__form-row">
-
                             <div className="room__form-label">
                                 Фамилия
                                 <div className="room__form-field">
@@ -64,14 +63,7 @@ const Room = () => {
                                     <BiPhone size={25}/>
                                 </div>
                             </div>
-                            {/*<p className="room__form-point">*/}
-                            {/*    Кол-во баллов у вас: {user.point}*/}
-                            {/*</p>*/}
-
                         </div>
-                        {/*<button className="room__form-btn">*/}
-                        {/*    Изменить*/}
-                        {/*</button>*/}
                     </form>
 
 

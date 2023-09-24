@@ -31,6 +31,18 @@ button{
   background: #282828;
   padding: 25px 0;
 }
+.checkout__link{
+  display: flex;
+  column-gap: 8px;
+  align-items: center;
+  &-text{
+    color: black;
+    font-weight: 600;
+  }
+  &-text2{
+    color: black;
+  }
+}
 @import "header";
 @import "banner";
 @import "hitSale";
@@ -39,11 +51,7 @@ button{
 @import "product";
 @import "catalog";
 @import "favorites";
-@import "cart";
-@import "checkout";
 @import "room";
-@import "swiper";
 @import "about";
 @import "tabs";
 @import "footer";
-@import "samsung";

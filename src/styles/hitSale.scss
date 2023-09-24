@@ -1,6 +1,5 @@
 .hitSale{
-  margin-top: 15px;
-  margin-bottom: 55px;
+  padding: 25px 0 65px;
   &__box{
     display: flex;
     justify-content: center;
@@ -11,17 +10,6 @@
     font-size: 22px;
     font-weight: 700;
     margin-bottom: 25px;
-    //position: relative;
-    //&::before{
-    //  content: '';
-    //  position: absolute;
-    //  width: 132%;
-    //  height: 1px;
-    //  left: 50%;
-    //  transform: translateX(-50%);
-    //  top: 30px;
-    //  background: #9c9c9c;
-    //}
   }
   &__line{
     width: 180px;
@@ -32,7 +20,8 @@
   }
   &__row{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 60px;
   }
 }

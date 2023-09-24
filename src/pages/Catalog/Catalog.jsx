@@ -1,11 +1,11 @@
 import React, {Fragment, useContext, useEffect, useState} from 'react';
-import AsideFilter from "../../components/AsideFilter/AsideFilter";
 import Card from "../../components/Card/Card";
 import api from "../../config/api/api";
 import {CustomContext} from "../../config/context/context";
-import {Link, useLocation} from 'react-router-dom'
+import {Link, useLocation, useNavigate} from 'react-router-dom'
 import {LuSearch} from "react-icons/lu"
 import {HiOutlineArrowNarrowRight} from "react-icons/hi"
+import HitSale from "../../components/HitSale/HitSale";
 
 const Catalog = () => {
 
@@ -17,6 +17,8 @@ const Catalog = () => {
     const {search, setSearch} = useContext(CustomContext)
 
     const location = useLocation()
+
+    const navigate = useNavigate()
 
 
     useEffect(() => {
@@ -66,16 +68,16 @@ const Catalog = () => {
                             />
                         </div>
                     </div>
-                    <AsideFilter slider={slider} setSlider={setSlider} category={category} setCategory={setCategory} sort={sort} setSort={setSort}/>
                     <div className="catalog__row">
                         <div className="hitSale__row">
-                            {
-                                products.map((item) => (
-                                    <Fragment key={item.id}>
-                                        <Card item={item}/>
-                                    </Fragment>
-                                ))
-                            }
+                            <HitSale/>
+                            {/*{*/}
+                            {/*    products.map((item) => (*/}
+                            {/*        <Fragment key={item.id}>*/}
+                            {/*            <Card item={item}/>*/}
+                            {/*        </Fragment>*/}
+                            {/*    ))*/}
+                            {/*}*/}
                         </div>
                     </div>
                 </div>

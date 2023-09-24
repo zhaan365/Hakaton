@@ -122,8 +122,6 @@ const Context = (props) => {
         })
     }
 
-
-
     const addOrder = (order, setPopup, redirect) => {
         api.patch(`users/${user.id}`, {
             headers: {

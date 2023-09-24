@@ -3,10 +3,10 @@ import 'swiper/css';
 import 'swiper/css/effect-flip';
 import { EffectFlip, Autoplay } from 'swiper/modules';
 
-import banner from '../../../assets/banner/banner.png'
-import banner2 from '../../../assets/banner/banner2.png'
-import banner3 from '../../../assets/banner/banner3.jpg'
-import banner4 from '../../../assets/banner/banner4.png'
+import banner from '../../../assets/banner/card2.jpg'
+import banner2 from '../../../assets/banner/card3.jpg'
+import banner3 from '../../../assets/banner/card4.jpg'
+import banner4 from '../../../assets/banner/card5.jpg'
 import React from "react";
 import {Link} from "react-router-dom";
 
@@ -44,23 +44,18 @@ const Banner2 = () => {
                     </Swiper>
 
                     <div className="banner__info">
-                        <div className="banner__info-nav">
                             <h2 className="banner__info-title">
-                                КРУТОЙ ИНТЕРНЕТ <br/>
-                                МАГАЗИН <span>"ElaRio"</span>
+                                Человек и Государство
                             </h2>
 
                             <p className="banner__info-text">
-                                Мы работаем на мировом рынке, <br/>
-                                что даёт нашим покупателям <br/>
-                                доступ к продукции разных <br/>
-                                стран и регионов.
+                                Взаимодействие гражданина с государством <br/>
+                                является важной основой демократического <br/>
+                                общества, где граждане имеют права и <br/>
+                                обязанности, а государство служит интересам <br/>
+                                своих граждан и стремится к справедливому и <br/>
+                                эффективному управлению.
                             </p>
-
-                            <Link className="banner__info-link" to={'/catalog'}>
-                                СМОТРЕТЬ КАТАЛОГ
-                            </Link>
-                        </div>
                     </div>
 
 

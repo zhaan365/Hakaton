@@ -13,18 +13,11 @@
     display: flex;
   }
   &__info{
-    //border-radius: 2px;
-    background: url("../assets/oboy.jpeg") center/cover no-repeat;
-    padding: 18px 32px 0;
+    background: #282828;
+    padding: 25px 32px 0;
     width: 36%;
     height: 266px;
     margin-right: 70px;
-    //background: #282828;
-    &-nav{
-      padding: 5px 32px;
-      backdrop-filter: blur(5px);
-      box-shadow: 0 0 10px rgba(0, 0, 0, 2);
-    }
     &-title{
       font-weight: 600;
       color: white;
@@ -36,7 +29,7 @@
     }
     &-text{
       color: white;
-      margin: 15px 0 50px;
+      margin: 45px 0 50px;
       font-weight: 300;
       font-size: 15px;
       line-height: 140%;
